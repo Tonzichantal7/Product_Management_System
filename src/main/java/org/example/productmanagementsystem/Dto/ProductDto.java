@@ -1,15 +1,15 @@
-package org.example.productmanagementsystem.ProductDto;
+package org.example.productmanagementsystem.Dto;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-@AllArgsConstructor
 
 public class ProductDto {
-    private Long categoryId;
+    private Long id;
+
     private String name;
     private String description;
     private double price;
     private int quantity;
+//    private String category;
 }
